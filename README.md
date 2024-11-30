@@ -21,6 +21,7 @@
 
 ## Build
 ```
+set CONDA_FORCE_32BIT=1
 conda create -n TimeFormatter -f environment.yml
 conda activate TimeFormatter
 ./build.ps1
